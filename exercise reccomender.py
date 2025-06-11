@@ -68,8 +68,10 @@ Tone: Encouraging and helpful
 """
 
 #Using llama3 for generating a response
-openai.api_base = "https://api.groq.com/openai/v1"
-openai.api_key = st.secrets["GROQ_API_KEY"]
+client = OpenAI(
+    base_url="https://api.groq.com/openai/v1",
+    api_key=st.secrets["GROQ_API_KEY"]
+)
 
 client = OpenAI()
 
