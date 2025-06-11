@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 from torch.nn.functional import cosine_similarity
 import requests
 import streamlit as st
-import openai
+from openai import OpenAI
 
 
 # Set directory cd C:\Users\jason\OneDrive\Documents\CS303E
@@ -71,7 +71,9 @@ Tone: Encouraging and helpful
 openai.api_base = "https://api.groq.com/openai/v1"
 openai.api_key = st.secrets["GROQ_API_KEY"]
 
-response = openai.ChatCompletion.create(
+client = OpenAI()
+
+response = client.chat.completions.create(
     model="meta-llama/Meta-Llama-3-8B-Instruct",
     messages=[{"role": "user", "content": rag_prompt}],
     temperature=0.7
