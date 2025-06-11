@@ -73,8 +73,6 @@ client = OpenAI(
     api_key=st.secrets["GROQ_API_KEY"]
 )
 
-client = OpenAI()
-
 response = client.chat.completions.create(
     model="meta-llama/Meta-Llama-3-8B-Instruct",
     messages=[{"role": "user", "content": rag_prompt}],
