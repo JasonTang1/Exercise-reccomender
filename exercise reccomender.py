@@ -3,6 +3,8 @@ from sentence_transformers import SentenceTransformer
 from torch.nn.functional import cosine_similarity
 import requests
 import streamlit as st
+import openai
+
 
 # Set directory cd C:\Users\jason\OneDrive\Documents\CS303E
 st.title('My Exercise Recommender')
@@ -43,7 +45,6 @@ retrieved_exercises = "\n".join([
 #print(retrieved_exercises)
 #Example user question: I'm a beginner. I want to do some easy leg exercises.
 
-#Using llama3 for generating a response
 rag_prompt = f"""
 The user's question is "{user_question}".
 Given only these exercises:
@@ -66,6 +67,22 @@ Tips to use when generating responses:
 Tone: Encouraging and helpful 
 """
 
+#Using llama3 for generating a response
+openai.api_base = "https://api.groq.com/openai/v1"
+openai.api_key = st.secrets["GROQ_API_KEY"]
+
+response = openai.ChatCompletion.create(
+    model="meta-llama/Meta-Llama-3-8B-Instruct",
+    messages=[{"role": "user", "content": rag_prompt}],
+    temperature=0.7
+)
+
+st.write(response.choices[0].message.content)
+
+
+#local llama3 server
+#uncomment to use local llama3 server
+"""
 response = requests.post(
     "http://localhost:11434/api/generate",
     json={"model": "llama3", "prompt": rag_prompt, "stream":  False}
@@ -77,4 +94,5 @@ if 'response' in response_data:
     st.write(response_data['response']) 
 else:
     st.write("Error or unexpected response:", response_data) 
+"""
 
