@@ -1,0 +1,66 @@
+Exercise,Body Part,Equipment,Difficulty
+Push-ups,"Chest, Triceps",Bodyweight,Easy
+Bench Press,"Chest, Triceps","Barbell, Bench",Medium
+Smith Machine Press,"Chest, Triceps, Shoulders",Machine,Easy
+Incline Dumbbell Press,"Chest, Triceps, Shoulders","Dumbbell, Bench",Medium
+Incline Bench Press,"Chest, Triceps, Shoulders","Barbell, Bench",Easy
+High to Low Flies,Chest,Cable Machine,Medium
+Low to High Flies,Chest,Cable Machine,Medium
+Pec Deck,Chest,Machine,Easy
+Machine Press,"Chest, Triceps, Shoulders","Machine, Plate loaded",Easy
+Preacher Curls,Biceps,"Dumbbell, EZ bar, barbell",Easy
+Incline Curls,Biceps,"Dumbbell, Bench",Medium
+Bayesian Curls,Biceps,Cable Machine,Medium
+Spider Curls,Biceps,"Bench, EZ bar, Dumbbell",Medium
+Concentration Curls,Biceps,Dumbbell,Easy
+Bicep Curls,Biceps,"Dumbbell, Barbell",Easy
+Tricep Overhead Extensions,Triceps,"Dumbbell, Cable Machine",Medium
+Tricep Kickbacks,Triceps,"Dumbbell, Cable Machine",Easy
+Tricep Pushdowns,Triceps,Cable Machine,Easy
+Tricep Dips,Triceps,"Bodyweight, Bench",Easy
+Skull Crushers,Triceps,"Barbell, Dumbbell, Bench",Medium
+Reverse Curls,Forearms,"Barbell, Cable Machine, Dumbbell",Easy
+Farmer's Walk,Forearms,Dumbbells,Easy
+Wrist Curls,Forearms,"Dumbbells, Cable Machine, Barbell",Easy
+Hammer Curls,"Forearms, Biceps, Brachialis",Dumbbells,Easy
+Shrugs,"Traps, Back","Dumbbells, Machine, Barbell",Easy
+Lat Pulldown,Back,Machine,Easy
+Pull-ups,"Back, Biceps",Bodyweight,Medium
+Lat Pullover,Back,"Machine, Cable Machine",Medium
+Rows,Back,"Machine, Dumbbell, Barbell, Cable Machine",Medium
+Lateral Raises,Shoulders,"Dumbbells, Cable Machine",Medium
+Cuffed Lateral Raises,Shoulders,Cable Machine,Medium
+Machine Lateral Raises,Shoulders,Machine,Easy
+Rear Delt Flies,Shoulders,"Machine, Dumbbells, Cable",Easy
+Shoulder Press,Shoulders,"Machine, Dumbbell, Barbell",Easy
+Military Press,Shoulders,Barbell,Medium
+Arnold Press,Shoulders,Dumbbell,Easy
+Strict Press,Shoulders,Barbell,Medium
+Leg Raises,Core,Bodyweight,Easy
+Rope Ab Crunch,Core,Cable Machine,Medium
+Machine Ab Crunch,Core,Machine,Easy
+Situps,Core,Bodyweight,Easy
+Plank,Core,Bodyweight,Easy
+Squats,"Quads, Glutes",Bodyweight,Easy
+Barbell Squats,"Quads, Glutes, Hamstrings",Barbell,Hard
+Lunges,"Quads, Glutes","Bodyweight, Dumbbell",Easy
+Leg Press,Quads,Machine,Easy
+Deadlifts,"Hamstrings, Glutes, Back",Barbell,Hard
+Bulgarian Split Squats,"Quads, Hamstrings, Glutes",Dumbbell,Medium
+Hack Squat,"Quads, Glutes",Machine,Easy
+Pendelum Squat,"Quads, Glutes, Hamstrings",Machine,Easy
+Leg Extensions,Quads,Machine,Easy
+Leg Curls,Hamstrings,Machine,Easy
+Calf Raises Standing,Calves,Machine,Easy
+Calf Raises Seated,Calves,Machine,Easy
+Romanian Deadlift,Hamstrings,"Barbell, Dumbbell",Hard
+Sissy Squats,"Quads, Hamstrings","Bodyweight, Barbell",Medium
+Pistol Squats,Quads,Bodyweight,Hard
+Goblet Squats,"Quads, Hamstrings, Glutes",Dumbbell,Medium
+Hip Thrusts,Glutes,"Barbell, Dumbbell, Machine",Medium
+Abductor Machine,Quads,Machine,Easy
+Adductor Machine,Quads,Machine,Easy
+Belt Squats,"Quads, Hamstrings, Glutes",Machine,Medium
+Smith Machine Squat,"Quads, Hamstrings, Glutes",Machine,Easy
+Back Hyperextensions,Back Erectors,"Machine, bodyweight",Easy
+Barbell Back Hyperextensions,Back Erectors,Barbell,Medium
